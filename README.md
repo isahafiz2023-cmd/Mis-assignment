@@ -1,5 +1,5 @@
-git clone https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git \
-&& cd <YOUR_REPO> \
+git clone https://github.com/<isahafiz2023-cmd>/<Mis-assigment>.git \
+&& cd <Mis-assignment> \
 && pip install -r requirements.txt
 pandas
 numpy
