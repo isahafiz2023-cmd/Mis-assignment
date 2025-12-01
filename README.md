@@ -48,3 +48,16 @@ screenshots/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+| Column name        | Type        | Description                                      |
+| ------------------ | ----------- | ------------------------------------------------ |
+| `ticket_id`        | string/int  | Unique ticket identifier                         |
+| `created_at`       | datetime    | When the ticket was opened                       |
+| `resolved_at`      | datetime    | When the ticket was marked resolved (nullable)   |
+| `closed_at`        | datetime    | When the ticket was fully closed (nullable)      |
+| `assigned_to`      | string      | Agent or team handling ticket                    |
+| `priority`         | string      | Priority level (Low/Med/High)                    |
+| `status`           | string      | Current status: open, assigned, resolved, closed |
+| `category`         | string      | Ticket topic/type                                |
+| `reopened`         | boolean/int | Whether the ticket has been reopened             |
+| `sla_hours`        | float       | SLA limit for the ticket                         |
+| `resolution_hours` | float       | Hours between create → resolve                   |
