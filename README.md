@@ -46,6 +46,14 @@ Mis-assignment/
 ### Backlog Overview
 ![Backlog](screenshots/backlog_plot.png)
 ![Process Map](data/process_map.png)
+git checkout -b feature/backlog-improvement
+data/raw/*
+*.db
+*.sqlite
+*.env
+*.log
+git push origin feature/your-feature-name
+
 Summary:
 Q&A
 Was a visual Entity-Relationship Diagram (ERD) successfully generated using eralchemy2? No, a visual ERD could not be programmatically generated using eralchemy2 because the installation of eralchemy2 failed.
